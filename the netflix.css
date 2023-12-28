@@ -1,0 +1,565 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    width: 100vw;
+    background: rgb(0, 0, 0);
+}
+
+.header{
+    width: 100%;
+    height: 680px;
+    background: url(images/netflix\ header\ image\ copy);
+    background-position: center;
+    background-size: cover;
+    border-bottom: 8px solid rgb(30, 30, 30);
+    position: relative;
+    top: 0;
+}
+
+.netflixlogo{
+    width: 180px; 
+    height: 100px;
+    margin-top: -8px;
+    margin-left: 11%;
+}
+
+.headerwordings h1{
+    color: white;
+    font-size: 49px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 40px;
+}
+
+.button{
+    /* margin-left: 80%; 
+    margin-top: -4.5%; */
+    width: 100px;
+    position: absolute;
+    top: 35px;
+    right: 190px;
+}
+
+.button button{
+    background: red;
+    color: white;
+    width: 80%;
+    height: 33px;
+    margin-left: 48%;
+    margin-top: -20px;
+    border: 1px solid red;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.button button:hover{
+    cursor: pointer;
+    background: rgb(205, 42, 42);
+}
+
+.headerwordings{
+    /* background: red; */
+    width: 80%;
+    height: 300px;
+    position: absolute;
+    top: 220px;
+    left: 150px;
+}
+
+.headerwordings p{
+    color: white;
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 30px;
+    font-size: 24px;
+}
+
+.headerwordings span{
+    color: white;
+    margin-top: 15px;
+    margin-left: 20%;
+    font-size: 21px;
+}
+
+.headerwordings input{
+    background: none;
+    border: 0.5px solid rgb(200, 199, 199);
+    width: 33.5%;
+    height: 55px;
+    margin-left: 23%;
+    margin-right: 5px;
+    margin-top: 17px;
+    font-size: 16px;
+    padding-left: 15px;
+    border-radius: 5px;
+}
+
+.headerwordings button{
+    width: 17.5%;
+    height: 55px;
+    background: red;
+    color: white;
+    font-size: 23px;
+    font-weight: bolder;
+    border: 0.5px solid red;
+    border-radius: 5px;
+}
+
+.headerwordings button:hover{
+    cursor: pointer;
+    background: rgb(205, 42, 42);
+}
+
+.enjoy{
+    width: 100%;
+    height: 560px;
+    background: white;
+    border-bottom: 8px solid rgb(30, 30, 30);
+    position: relative;
+    top: 0;
+    display: flex;
+    background: black;
+}
+.enjoyone{
+    width: 49%;
+}
+
+.enjoyone h1{
+    color: white;
+    font-size: 49px;
+    width: 80%;
+    margin-top: 28%;
+    margin-left: 23%;
+}
+
+.enjoyone p{
+    color: white;
+    font-size: 24px;
+    margin-left: 23.5%;
+    margin-top: 3%;
+}
+
+.enjoytwo img{
+    width:38%;
+    position: absolute;
+    top: 60px;
+    right: 165px;
+    z-index: 2;
+}
+
+#vid{
+    width: 390px;
+    height: 210px;
+    position: absolute;
+    top: 150px;
+    right: 245px;
+    z-index: 1;
+}
+
+.download{
+    width: 100%;
+    height: 560px;
+    background: white;
+    border-bottom: 8px solid rgb(30, 30, 30);
+    position: relative;
+    top: 0;
+    display: flex;
+    justify-content: space-evenly;
+    background: black;
+}
+
+.downloadone img{
+    width: 38%;
+    position: absolute;
+    top: 70px;
+    left: 170px;
+}
+
+.downloadtwo{
+    width: 40%;
+    margin-left: 31%;
+    /* z-index: 3; */
+}
+
+.downloadtwo h1{
+    color: white;
+    font-size: 50px;
+    margin-top: 29%;
+    /* margin-left: 50px; */
+}
+
+.downloadtwo p{
+    color: white;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.watch{
+    width: 100%;
+    height: 370px;
+    background: white;
+    border-bottom: 8px solid rgb(30, 30, 30);
+    position: relative;
+    top: 0;
+    display: flex;
+    justify-content: space-evenly;
+    background: black;
+}
+
+.watchone{
+    margin-left: -30%;
+    width: 30.5%;
+}
+.watchone h1{
+    color: white;
+    font-size: 51px;
+    margin-top: 70px;
+}
+
+.watchone p{
+    color: white;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.create{
+    width: 100%;
+    height: 560px;
+    border-bottom: 8px solid rgb(30, 30, 30);
+    position: relative;
+    top: 0;
+    display: flex;
+    justify-content: space-evenly;
+    background: black;
+}
+
+.createone img{
+    width: 38%;
+    position: absolute;
+    top: 70px;
+    left: 170px;
+}
+
+.createtwo{
+    width: 38%;
+    margin-left: 27%;
+}
+
+.createtwo h1{
+    color: white;
+    font-size: 50px;
+    margin-top: 32%;
+}
+
+.createtwo p{
+    color: white;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.frequently{
+    width: 100%;
+    height: 860px;
+    border-bottom: 8px solid rgb(30, 30, 30);
+    position: relative;
+    top: 0;
+    /* display: flex; */
+    /* justify-content: space-evenly; */
+    background: black;
+}
+
+.frequently h1{
+    color: white;
+    font-size: 42px;
+    text-align: center;
+    font-family: 'Archivo Black', sans-serif;
+    margin-top: 75px;
+}
+
+.buttonone{
+    width: 76%;
+    height: 85px;
+    margin-top: 30px;
+    margin-left: 12%;
+    text-align: justify;
+    padding-left: 20px;
+    font-size: 25px;
+    background: rgb(45, 44, 44);
+    color: white;
+    border: 1px solid rgb(45, 44, 44);
+}
+
+.buttonone:hover{
+    cursor: pointer;
+    background: rgb(62, 61, 61);
+}
+
+.buttontwo{
+    width: 76%;
+    height: 85px;
+    margin-top: 10px;
+    margin-left: 12%;
+    text-align: justify;
+    padding-left: 20px;
+    font-size: 25px;
+    background: rgb(45, 44, 44);
+    color: white;
+    border: 1px solid rgb(45, 44, 44);
+}
+
+.buttontwo:hover{
+    cursor: pointer;
+    background: rgb(62, 61, 61);
+}
+
+.buttonthree{
+    width: 76%;
+    height: 85px;
+    margin-top: 10px;
+    margin-left: 12%;
+    text-align: justify;
+    padding-left: 20px;
+    font-size: 25px;
+    background: rgb(45, 44, 44);
+    color: white;
+    border: 1px solid rgb(45, 44, 44);
+}
+
+.buttonthree:hover{
+    cursor: pointer;
+    background: rgb(62, 61, 61);
+}
+
+.buttonfour{
+    width: 76%;
+    height: 85px;
+    margin-top: 10px;
+    margin-left: 12%;
+    text-align: justify;
+    padding-left: 20px;
+    font-size: 25px;
+    background: rgb(45, 44, 44);
+    color: white;
+    border: 1px solid rgb(45, 44, 44);
+}
+
+.buttonfour:hover{
+    cursor: pointer;
+    background: rgb(62, 61, 61);
+}
+
+.buttonfive{
+    width: 76%;
+    height: 85px;
+    margin-top: 10px;
+    margin-left: 12%;
+    text-align: justify;
+    padding-left: 20px;
+    font-size: 25px;
+    background: rgb(45, 44, 44);
+    color: white;
+    border: 1px solid rgb(45, 44, 44);
+}
+
+.buttonfive:hover{
+    cursor: pointer;
+    background: rgb(62, 61, 61);
+}
+
+.buttonsix{
+    width: 76%;
+    height: 85px;
+    margin-top: 10px;
+    margin-left: 12%;
+    text-align: justify;
+    padding-left: 20px;
+    font-size: 25px;
+    background: rgb(45, 44, 44);
+    color: white;
+    border: 1px solid rgb(45, 44, 44);
+}
+
+.buttonsix:hover{
+    cursor: pointer;
+    background: rgb(62, 61, 61);
+}
+
+.frequently p{
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+.frequently input{
+    background: none;
+    border: 0.5px solid rgb(200, 199, 199);
+    width: 26%;
+    height: 55px;
+    margin-left: 30%;
+    margin-right: 5px;
+    margin-top: 17px;
+    font-size: 16px;
+    padding-left: 15px;
+    border-radius: 5px;
+}
+
+.buttonseven{
+    width: 13.5%;
+    height: 55px;
+    background: red;
+    color: white;
+    font-size: 23px;
+    font-weight: bolder;
+    border: 0.5px solid red;
+    border-radius: 5px;
+}
+
+.buttonseven:hover{
+    cursor: pointer;
+    background: rgb(205, 42, 42);
+}
+
+.footer{
+    width: 100%;
+    height: 385px;
+    position: relative;
+    top: 0;
+    background: black;
+}
+.footerone{
+    margin-top: 5%;
+    margin-left: 11.5%;
+    /* border: 1px solid red; */
+}
+.footerone a{
+    color: rgb(188, 187, 187);
+}
+
+.faq{
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+
+.faqone{
+    margin-top: 2.5%;
+    margin-left: 11.5%;
+    /* border: 1px solid red; */
+}
+
+.faqone a{
+    color: rgb(188, 187, 187);
+    padding-bottom: 5px; 
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.faqtwo{
+    margin-top: 2.5%;
+    margin-left: 17%;
+    /* border: 1px solid red; */
+}
+
+.faqtwo a{
+    color: rgb(188, 187, 187);
+    padding-bottom: 5px; 
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.faqthree{
+    margin-top: 2.5%;
+    margin-left: 17%;
+    /* border: 1px solid red; */
+}
+
+.faqthree a{
+    color: rgb(188, 187, 187);
+    padding-bottom: 5px; 
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.english{
+    border: 0.5px solid rgb(115, 113, 113);
+    color: white;
+    background: rgb(21, 21, 21);
+    margin-top: 0.5%;
+    margin-left: 11.5%;
+    width: 9%;
+    height: 35px;
+    border-radius: 5px;
+    display: flex;
+}
+
+.english i{
+    padding-top: 7.5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.nigeria{
+    color: rgb(188, 187, 187);
+    margin-left: 11.5%;
+    margin-top: 1.5%;
+    font-size: 14px;
+}
+
+.phoneimage{
+    position: absolute;
+    top: 345px;
+    left: 292px;
+    width: 21%;
+    height: 100px;
+    background: black;
+    display: flex;
+    border-radius: 10px;
+    border: 2px solid rgb(48, 47, 47);
+}
+
+.phoneimageone img{
+    position: absolute;
+    top: 6px;
+    left: 12px;
+    width: 60px;
+    height: 80px;
+}
+
+.phoneimagetwo h1{
+    padding-left: 90px;
+    padding-top: 35px;
+    font-size: 16px;
+    color: white;
+}
+
+.phoneimagetwo p{
+    padding-left: 90px;
+    font-size: 15px;
+    color: blue;
+}
+
+.phoneimagethree img{
+    position: absolute;
+    top: 25px;
+    left: 240px;
+    width: 40px;
+    height: 55px;
+}
+
+#caret{
+    color: white;
+    font-size: 12px;
+    padding-top: 11px;
+}
+
+.english span{
+    padding-top: 8px;
+}
