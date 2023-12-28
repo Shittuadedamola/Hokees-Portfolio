@@ -44,7 +44,7 @@ h1{
     color: teal;
 }
 
-@media (max-width:414px){
+@media (max-width:531px){
     h1{
         font-size: 35px;
     }
