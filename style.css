@@ -1,0 +1,737 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+/* .hamburger{
+    width: 2%;
+} */
+
+.hamburg{
+    /* width: 3%; */
+    /* height: 50%; */
+}
+
+.list{
+    width: 80%;
+    height: 100%;
+}
+
+.hamburger{
+    width: 80%;
+    height: 100%; 
+}
+
+.nav{
+    height: 10%;
+    width: 100%;
+    /* left: 23.5%; */
+    z-index: 999;
+}
+
+.waving{
+    height: 5%;
+    width: 5%;
+}
+
+.aboutme{
+    width: 50%;
+    height: 70vh;
+    margin: auto;
+    margin-top: 10%;
+}
+
+.aboutname{
+    margin-left: 31.5%;
+}
+
+.moon{
+    margin-left: -7%;
+}
+
+.h1{
+    width:100%;
+    font-family: 'Inclusive Sans', sans-serif;
+}
+
+.hey{
+    font-family:'Lilita One', cursive;
+}
+.I{
+    font-family: 'Lilita One', cursive;
+}
+
+.about{
+    font-family: 'Inclusive Sans', sans-serif;
+    width: 10%;
+}
+
+.skill{
+    font-family: 'Lilita One', cursive;
+}
+
+.skills{
+    width: 50%;
+    height: 80vh;
+}
+
+.project{
+    font-family: 'Lilita One', cursive;
+    /* grid-template-columns: auto auto; */
+}
+
+.projects{
+    width: 50%;
+    height: 250vh;
+}
+
+.tired{
+    /* grid-template-columns: auto auto; */
+    /* display: flex; */
+}
+
+/* .skillone{
+    transition: tranform 0.5s ease;
+} */
+
+.skillone:hover{
+    /* animation: hey 1s ease-in-out; */
+    transform: translateY(-5px);
+}
+
+.skilltwo:hover{
+    /* animation: hey 1s ease-in-out; */
+    transform: translateY(-5px);
+}
+
+.skillthree:hover{
+    /* animation: hey 1s ease-in-out; */
+    transform: translateY(-5px);
+}
+
+.skillfour:hover{
+    /* animation: hey 1s ease-in-out; */
+    transform: translateY(-5px);
+}
+
+.skillfive:hover{
+    /* animation: hey 1s ease-in-out; */
+    transform: translateY(-5px);
+}
+
+.skillsix:hover{
+    /* animation: hey 1s ease-in-out; */
+    transform: translateY(-5px);
+}
+
+/* @keyframes hey{
+    10%{
+        transform: translateY(-5px);
+    }
+} */
+
+.projectone{
+    width: 45%;
+    height: 70vh;
+    /* transition: tranform 0.5s ease; */
+}
+
+.projecttwo{
+    width: 45%;
+    height: 70vh;
+    /* transition: tranform 0.5s ease; */
+}
+
+.projectthree{
+    width: 45%;
+    height: 70vh;
+    /* transition: tranform 0.5s ease; */
+}
+
+.projectfour{
+    width: 45%;
+    height: 70vh;
+    /* transition: tranform 0.5s ease; */
+}
+
+.projectfive{
+    width: 45%;
+    height: 70vh;
+    /* transition: tranform 0.5s ease; */
+}
+
+.projectsix{
+    width: 45%;
+    height: 70vh;
+    /* transition: tranform 0.5s ease; */
+}
+
+.forcalculator{
+    width: 80%;
+    height: 30%;
+    background: url(images/calculator\ pics\ for\ portfolio.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.forcolorflipper{
+    width: 80%;
+    height: 30%;
+    background: url(images/color\ flipper\ pics.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.fornetnaija{
+    width: 80%;
+    height: 30%;
+    background: url(images/the\ netnaija\ pics.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.forcurrencycalculator{
+    width: 80%;
+    height: 30%;
+    background: url(images/currency\ calculator\ pics.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.fornetflix{
+    width: 80%;
+    height: 30%;
+    background: url(images/netflix\ pics.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.foryoutube{
+    width: 80%;
+    height: 30%;
+    background: url(images/YouTube\ pics.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.projectone:hover{
+    /* animation: hey 1s ease-in-out; */
+    transform: translateY(-5px);
+}
+
+.projecttwo:hover{
+    /* animation: hey 1s ease-in-out; */
+    transform: translateY(-5px);
+}
+
+.projectthree:hover{
+    /* animation: hey 1s ease-in-out; */
+    transform: translateY(-5px);
+}
+
+.projectfour:hover{
+    /* animation: hey 1s ease-in-out; */
+    transform: translateY(-5px);
+}
+
+.projectfive:hover{
+    /* animation: hey 1s ease-in-out; */
+    transform: translateY(-5px);
+}
+
+.projectsix:hover{
+    /* animation: hey 1s ease-in-out; */
+    transform: translateY(-5px);
+}
+
+.contacts{
+    width: 50%;
+    height: 50vh;
+}
+
+.contact{
+    font-family: 'Lilita One', cursive;
+}
+
+@media (max-width:912px){
+    .nav{
+        width: 100%;
+    }
+
+    .hamburg{
+        height: 50%;
+        width: 30%;
+    }
+
+    .aboutme{
+        width: 90%;
+        padding-left: 5%;
+        padding-right: 5%;
+        margin-bottom: 20%;
+        margin-top: 20%;
+    }
+
+    .hey{
+        font-size: 50px;
+        margin-top: 35%;
+    }
+
+    .I{
+        font-size: 50px;
+    }
+
+    .skill{
+        font-size: 32px;
+    }
+
+    .skills{
+        /* padding-bottom: 50px; */
+        /* padding-top: -20%; */
+    }
+
+    .project{
+        font-size: 32px;
+    }
+
+    .projects{
+        padding-top: 10%;
+        width: 100%;
+    }
+
+    .tired{
+        flex-direction: column;
+    }
+
+    .projectone{
+        width: 90%;
+        height: 65vh;
+        margin-left: 5%;
+        margin-bottom: 10%;
+    }
+
+    .projecttwo{
+        width: 90%;
+        height: 65vh;
+        margin-left: 5%;
+        /* margin-bottom: 10%; */
+    }
+
+    .projectthree{
+        width: 90%;
+        height: 65vh;
+        margin-left: 5%;
+        margin-bottom: 10%;
+    }
+
+    .projectfour{
+        width: 90%;
+        height: 65vh;
+        margin-left: 5%;
+        margin-bottom: 10%;
+    }
+
+    .projectfive{
+        width: 90%;
+        height: 65vh;
+        margin-left: 5%;
+        margin-bottom: 10%;
+    }
+
+    .projectsix{
+        width: 90%;
+        height: 65vh;
+        margin-left: 5%;
+        margin-bottom: 10%;
+    }
+
+    .contacts{
+        padding-top: 285%;
+        width: 100%;
+    }
+
+    .contact{
+        font-size: 32px;
+    }
+}
+
+@media (max-width:540px){
+    .nav{
+        width: 100%;
+    }
+
+    .hamburg{
+        height: 50%;
+        width: 30%;
+    }
+
+    .aboutme{
+        width: 100%;
+        padding-left: 5%;
+        padding-right: 5%;
+        margin-bottom: 25%;
+        margin-top: 20%;
+    }
+
+    .hey{
+        font-size: 35px;
+    }
+
+    .I{
+        font-size: 35px;
+    }
+
+    .skill{
+        font-size: 32px;
+    }
+
+    .skills{
+        /* padding-bottom: 50px; */
+        /* padding-top: -20%; */
+    }
+
+    .project{
+        font-size: 32px;
+    }
+
+    .projects{
+        padding-top: 10%;
+        width: 100%;
+    }
+
+    .tired{
+        flex-direction: column;
+    }
+
+    .projectone{
+        width: 90%;
+        height: 65vh;
+        margin-left: 5%;
+        margin-bottom: 10%;
+    }
+
+    .projecttwo{
+        width: 90%;
+        height: 65vh;
+        margin-left: 5%;
+        /* margin-bottom: 10%; */
+    }
+
+    .projectthree{
+        width: 90%;
+        height: 65vh;
+        margin-left: 5%;
+        margin-bottom: 10%;
+    }
+
+    .projectfour{
+        width: 90%;
+        height: 65vh;
+        margin-left: 5%;
+        margin-bottom: 10%;
+    }
+
+    .projectfive{
+        width: 90%;
+        height: 65vh;
+        margin-left: 5%;
+        margin-bottom: 10%;
+    }
+
+    .projectsix{
+        width: 90%;
+        height: 65vh;
+        margin-left: 5%;
+        margin-bottom: 10%;
+    }
+
+    .contacts{
+        padding-top: 285%;
+        width: 100%;
+    }
+
+    .contact{
+        font-size: 32px;
+    }
+}
+
+@media (max-width:414px){
+    .nav{
+        width: 100%;
+    }
+
+    .hamburg{
+        height: 50%;
+        width: 30%;
+    }
+
+    .aboutme{
+        width: 100%;
+        padding-left: 5%;
+        padding-right: 5%;
+        margin-bottom: 25%;
+        margin-top: 20%;
+    }
+
+    .hey{
+        font-size: 35px;
+    }
+
+    .I{
+        font-size: 35px;
+        padding-bottom: 20px;
+    }
+
+    .skill{
+        font-size: 32px;
+    }
+
+    .skills{
+        /* padding-bottom: 50px; */
+    }
+
+    .project{
+        font-size: 32px;
+    }
+
+    .projects{
+        padding-top: 5%;
+        width: 100%;
+    }
+
+    .tired{
+        flex-direction: column;
+    }
+
+    .projectone{
+        width: 90%;
+        height: 60vh;
+        margin-left: 5%;
+        margin-bottom: 10%;
+    }
+
+    .sc{
+        font-size: 20px;
+    }
+
+    /* .hcj{
+        padding-top: 10%;
+    } */
+
+    .projecttwo{
+        width: 90%;
+        height: 60vh;
+        margin-left: 5%;
+        /* margin-bottom: 10%; */
+    }
+
+    .cf{
+        font-size: 20px;
+    }
+
+    .projectthree{
+        width: 90%;
+        height: 60vh;
+        margin-left: 5%;
+        margin-bottom: 10%;
+    }
+
+    .projectfour{
+        width: 90%;
+        height: 60vh;
+        margin-left: 5%;
+    }
+
+    .projectfive{
+        width: 90%;
+        height: 60vh;
+        margin-left: 5%;
+        margin-bottom: 10%;
+    }
+
+    .projectsix{
+        width: 90%;
+        height: 60vh;
+        margin-left: 5%;
+    }
+
+    .contacts{
+        padding-top: 335%;
+        width: 100%;
+    }
+
+    .contact{
+        font-size: 32px;
+    }
+
+    .okay{
+        font-size: 18px;
+    }
+}
+
+@media (max-width:375px){
+    .nav{
+        width: 100%;
+    }
+
+    .hamburg{
+        height: 50%;
+        width: 30%;
+    }
+
+    .aboutme{
+        width: 100%;
+        padding-left: 5%;
+        padding-right: 5%;
+        margin-bottom: 35%;
+    }
+
+    .hey{
+        font-size: 32px;
+    }
+
+    .I{
+        font-size: 32px;
+        padding-bottom: 20px;
+    }
+
+    .skill{
+        font-size: 32px;
+    }
+
+    .skills{
+        /* padding-bottom: 50px; */
+        /* margin-top: 200%;
+        margin-bottom: 20%; */
+    }
+
+    .project{
+        font-size: 32px;
+    }
+
+    .projects{
+        padding-top: 15%;
+        width: 100%;
+    }
+
+    .tired{
+        flex-direction: column;
+    }
+
+    .projectone{
+        width: 90%;
+        height: 77vh;
+        margin-left: 5%;
+        margin-bottom: 10%;
+    }
+
+    .sc{
+        font-size: 20px;
+    }
+
+    /* .hcj{
+        padding-top: 10%;
+    } */
+
+    .projecttwo{
+        width: 90%;
+        height: 77vh;
+        margin-left: 5%;
+    }
+
+    .cf{
+        font-size: 20px;
+    }
+
+    .projectthree{
+        width: 90%;
+        height: 77vh;
+        margin-left: 5%;
+    }
+
+    .projectfour{
+        width: 90%;
+        height: 77vh;
+        margin-left: 5%;
+    }
+
+    .projectfive{
+        width: 90%;
+        height: 77vh;
+        margin-left: 5%;
+    }
+
+    .projectsix{
+        width: 90%;
+        height: 77vh;
+        margin-left: 5%;
+    }
+
+    .contacts{
+        padding-top: 500%;
+        /* width: 100%; */
+    }
+
+    .contact{
+        font-size: 32px;
+    }
+
+
+    #skilll{
+        margin-top: 100px;
+    }
+
+    #projectt{
+        margin-top: 100px;
+    }
+
+    #contactt{
+        margin-top: 100px;
+    }
+}
+
+@media (max-width:360px){
+    .contacts{
+        padding-top: 550%;
+        /* width: 100%; */
+    }
+}
+
+@media (max-width:280px){
+    .aboutme{
+        padding-bottom: 240%;
+    }
+
+    .skills{
+        padding-bottom: 190%;
+    }
+
+    .projecttwo{
+        height: 82vh;
+    }
+
+    .projectthree{
+        height: 82vh;
+    }
+
+    .projectfour{
+        height: 82vh;
+    }
+
+    .projectfive{
+        height: 82vh;
+    }
+
+    .projectsix{
+        height: 82vh;
+    }
+
+    .contacts{
+        padding-top: 690%;
+    }
+}
