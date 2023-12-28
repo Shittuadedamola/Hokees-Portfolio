@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calculator.css">
+    <script src="calculator.js"></script>
+</head>
+<body>
+    <section>
+        <div class="divone">
+            <h1>HOKEES CALCULATOR</h2>
+                <p><a href="">Click for Sci-Cal</a></p>
+        </div>
+
+        <div class="divtwo">
+            <div class="calculator">
+                <div id="workings" type="value"></div>
+                <div id="screen" type="value"></div>
+                <div class="keypads">
+                    <div class="buttonrowone">
+                        <button id="c" onclick="remove()">C</button>
+                        <button id="plusoverminus" onclick="negative()">+/-</button>
+                        <button id="percent" onclick="percent()">%</button>
+                        <button id="division" onclick="button('/')">÷</button>
+                    </div>
+
+                    <div class="buttonrowtwo">
+                        <button id="one" onclick="button(1)">1</button>
+                        <button id="two" onclick="button(2)">2</button>
+                        <button id="three" onclick="button(3)">3</button>
+                        <button id="multiply" onclick="button('*')">*</button>
+                    </div>
+
+                    <div class="buttonrowthree">
+                        <button id="four" onclick="button(4)">4</button>
+                        <button id="five" onclick="button(5)">5</button>
+                        <button id="six" onclick="button(6)">6</button>
+                        <button id="addition" onclick="button('+')">+</button>
+                    </div>
+
+                    <div class="buttonrowfour">
+                        <button id="seven" onclick="button(7)">7</button>
+                        <button id="eight" onclick="button(8)">8</button>
+                        <button id="nine" onclick="button(9)">9</button>
+                        <button id="subtraction" onclick="button('-')">-</button>
+                    </div>
+
+                    <div class="buttonrowfive">
+                        <button id="dot" onclick="button('.')">.</button>
+                        <button id="zero" onclick="button(0)">0</button>
+                        <button id="equalto" onclick="equal()">=</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

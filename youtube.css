@@ -1,0 +1,914 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    /* background: green; */
+    height: 70px;
+    display: flex;
+    position: fixed;
+    top: 0;
+}
+
+.hamburger{
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
+.hamburger div{
+    width: 25px;
+    height: 2px;
+    background: black;
+    margin-top: 5px;
+}
+
+#youtubelogo{
+    height: 20px;
+    width: 100px;
+    margin-top: 18px;
+    margin-left: 25px;
+}
+
+.searchbar{
+    display: flex;
+    /* border: 1px solid black; */
+    height: 45px;
+    width: 600px;
+    margin-top: 10px;
+    margin-left: 220px;
+}
+
+.search{
+    padding-left: 15px;
+    padding-top: 5px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border: 1px solid rgb(214, 208, 208);
+    padding-right: 485px;
+}
+
+.search p{
+    padding-top: 7.5px;
+    color: grey;
+}
+
+.searchicon{
+    border: 1px solid rgb(214, 208, 208);
+    padding-left: 15px;
+    padding-right: 15px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding-top: 12px;
+}
+
+.microphone{
+    height:45px;
+    width: 45px;
+    background: rgb(237, 232, 232);
+    border-radius: 50%;
+    margin-top: 10px;
+    padding-top: 12px;
+    padding-left: 12px;
+    margin-left: 20px;
+}
+
+#video{
+    width: 25px;
+    height: 25px;
+    margin-left: 190px;
+    margin-top: 15px;
+}
+
+#bell{
+    width: 25px;
+    height: 25px;
+    margin-left: 25px;
+    margin-top: 15px;
+}
+
+.user{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background: teal;
+    margin-top: 10px;
+    margin-left: 25px;
+    color: white;
+    padding-top: 3px;
+    padding-left: 7px;
+    font-size: 20px;
+}
+
+aside{
+    height: 100vh;
+    width: 230px;
+    /* background: green; */
+    position: fixed;
+    top: 70px;
+    overflow: scroll;
+}
+
+.first{
+    /* background: blue; */
+    height: 140px;
+    border-bottom: 1px solid rgb(233, 223, 223);
+    width: 220px;
+}
+
+.homediv{
+    display: flex;
+    padding-left: 20px;
+    padding-top: 10px;
+    /* background: yellow; */
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    margin-left: 15px;
+}
+
+.homediv p{
+    padding-left: 25px;
+    padding-top: 2px;
+}
+
+.homediv:hover{
+    background: rgb(214, 208, 208);
+    cursor: pointer;
+}
+
+.shorts{
+    display: flex;
+    padding-left: 20px;
+    padding-top: 10px;
+    /* background: yellow; */
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    margin-left: 15px;
+}
+
+.shorts p{
+    padding-left: 25px;
+    padding-top: 2px;
+}
+
+.shorts:hover{
+    background: rgb(214, 208, 208);
+    cursor: pointer;
+}
+
+.subscriptions{
+    display: flex;
+    padding-left: 20px;
+    padding-top: 10px;
+    /* background: yellow; */
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    margin-left: 15px;
+}
+
+.subscriptions p{
+    padding-left: 25px;
+    padding-top: 2px;
+}
+
+.subscriptions:hover{
+    background: rgb(214, 208, 208);
+    cursor: pointer;
+}
+
+.second{
+    /* background: blue; */
+    height: 220px;
+    border-bottom: 1px solid rgb(233, 223, 223);
+    width: 220px;
+}
+
+.library{
+    display: flex;
+    padding-left: 20px;
+    padding-top: 10px;
+    /* background: yellow; */
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    margin-left: 15px;
+}
+
+.library p{
+    padding-left: 25px;
+    padding-top: 2px;
+}
+
+.library:hover{
+    background: rgb(214, 208, 208);
+    cursor: pointer;
+}
+
+.history{
+    display: flex;
+    padding-left: 20px;
+    padding-top: 10px;
+    /* background: yellow; */
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    margin-left: 15px;
+}
+
+.history p{
+    padding-left: 25px;
+    padding-top: 2px;
+}
+
+.history:hover{
+    background: rgb(214, 208, 208);
+    cursor: pointer;
+}
+
+.yourvideos{
+    display: flex;
+    padding-left: 20px;
+    padding-top: 10px;
+    /* background: yellow; */
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    margin-left: 15px;
+}
+
+.yourvideos p{
+    padding-left: 25px;
+    padding-top: 2px;
+}
+
+.yourvideos:hover{
+    background: rgb(214, 208, 208);
+    cursor: pointer;
+}
+
+.watchlater{
+    display: flex;
+    padding-left: 20px;
+    padding-top: 10px;
+    /* background: yellow; */
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    margin-left: 15px;
+}
+
+.watchlater p{
+    padding-left: 25px;
+    padding-top: 2px;
+}
+
+.watchlater:hover{
+    background: rgb(214, 208, 208);
+    cursor: pointer;
+}
+
+.likedvideos{
+    display: flex;
+    padding-left: 20px;
+    padding-top: 10px;
+    /* background: yellow; */
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    margin-left: 15px;
+}
+
+.likedvideos p{
+    padding-left: 25px;
+    padding-top: 2px;
+}
+
+.likedvideos:hover{
+    background: rgb(214, 208, 208);
+    cursor: pointer;
+}
+
+.third{
+    /* background: blue; */
+    height: 260px;
+    border-bottom: 1px solid rgb(233, 223, 223);
+    width: 220px;
+}
+
+.sub{
+    padding-left: 35px;
+    padding-top: 10px;
+    font-size: 18px;
+}
+
+.subone{
+    display: flex;
+    padding-left: 20px;
+    padding-top: 10px;
+    /* background: yellow; */
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    margin-left: 15px;
+}
+
+.subone p{
+    padding-left: 20px;
+    padding-top: 2px;
+}
+
+.subone:hover{
+    background: rgb(214, 208, 208);
+    cursor: pointer;
+}
+
+.subtwo{
+    display: flex;
+    padding-left: 20px;
+    padding-top: 10px;
+    /* background: yellow; */
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    margin-left: 15px;
+}
+
+.subtwo p{
+    padding-left: 20px;
+    padding-top: 2px;
+}
+
+.subtwo:hover{
+    background: rgb(214, 208, 208);
+    cursor: pointer;
+}
+
+.subthree{
+    display: flex;
+    padding-left: 20px;
+    padding-top: 10px;
+    /* background: yellow; */
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    margin-left: 15px;
+}
+
+.subthree p{
+    padding-left: 20px;
+    padding-top: 2px;
+}
+
+.subthree:hover{
+    background: rgb(214, 208, 208);
+    cursor: pointer;
+}
+
+.subfour{
+    display: flex;
+    padding-left: 20px;
+    padding-top: 10px;
+    /* background: yellow; */
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    margin-left: 15px;
+}
+
+.subfour p{
+    padding-left: 20px;
+    padding-top: 2px;
+}
+
+.subfour:hover{
+    background: rgb(214, 208, 208);
+    cursor: pointer;
+}
+
+.subextra{
+    display: flex;
+    padding-left: 20px;
+    padding-top: 10px;
+    /* background: yellow; */
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    margin-left: 15px;
+}
+
+.subextra p{
+    padding-left: 20px;
+    padding-top: 2px;
+}
+
+.subextradp{
+    border: 1px solid black;
+    border-radius: 50%;
+    padding-top: 1px;
+}
+
+.subextra:hover{
+    background: rgb(214, 208, 208);
+    cursor: pointer;
+}
+
+.fourth{
+    /* background: blue; */
+    height: 260px;
+    border-bottom: 1px solid rgb(233, 223, 223);
+    width: 220px;
+}
+
+.explore{
+    padding-left: 35px;
+    padding-top: 10px;
+    font-size: 18px;
+}
+
+.trending{
+    display: flex;
+    padding-left: 20px;
+    padding-top: 10px;
+    /* background: yellow; */
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    margin-left: 15px;
+}
+
+.trending p{
+    padding-left: 25px;
+    padding-top: 2px;
+}
+
+.trending:hover{
+    background: rgb(214, 208, 208);
+    cursor: pointer;
+}
+
+.music{
+    display: flex;
+    padding-left: 20px;
+    padding-top: 10px;
+    /* background: yellow; */
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    margin-left: 15px;
+}
+
+.music p{
+    padding-left: 25px;
+    padding-top: 2px;
+}
+
+.music:hover{
+    background: rgb(214, 208, 208);
+    cursor: pointer;
+}
+
+.gaming{
+    display: flex;
+    padding-left: 20px;
+    padding-top: 10px;
+    /* background: yellow; */
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    margin-left: 15px;
+}
+
+.gaming p{
+    padding-left: 25px;
+    padding-top: 2px;
+}
+
+.gaming:hover{
+    background: rgb(214, 208, 208);
+    cursor: pointer;
+}
+
+.news{
+    display: flex;
+    padding-left: 20px;
+    padding-top: 10px;
+    /* background: yellow; */
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    margin-left: 15px;
+}
+
+.news p{
+    padding-left: 25px;
+    padding-top: 2px;
+}
+
+.news:hover{
+    background: rgb(214, 208, 208);
+    cursor: pointer;
+}
+
+.sports{
+    display: flex;
+    padding-left: 20px;
+    padding-top: 10px;
+    /* background: yellow; */
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    margin-left: 15px;
+}
+
+.sports p{
+    padding-left: 25px;
+    padding-top: 2px;
+}
+
+.sports:hover{
+    background: rgb(214, 208, 208);
+    cursor: pointer;
+}
+
+.fifth{
+    /* background: blue; */
+    height: 220px;
+    border-bottom: 1px solid rgb(233, 223, 223);
+    width: 220px;
+}
+
+.more{
+    padding-left: 35px;
+    padding-top: 10px;
+    font-size: 18px;
+}
+
+.yp{
+    display: flex;
+    padding-left: 20px;
+    padding-top: 10px;
+    /* background: yellow; */
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.yp p{
+    padding-left: 20px;
+    padding-top: 2px;
+}
+
+.yp:hover{
+    background: rgb(214, 208, 208);
+    cursor: pointer;
+}
+
+.ys{
+    display: flex;
+    padding-left: 20px;
+    padding-top: 10px;
+    /* background: yellow; */
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    margin-left: 15px;
+}
+
+.ys p{
+    padding-left: 20px;
+    padding-top: 2px;
+}
+
+.ys:hover{
+    background: rgb(214, 208, 208);
+    cursor: pointer;
+}
+
+.ym{
+    display: flex;
+    padding-left: 20px;
+    padding-top: 10px;
+    /* background: yellow; */
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    margin-left: 15px;
+}
+
+.ym p{
+    padding-left: 20px;
+    padding-top: 2px;
+}
+
+.ym:hover{
+    background: rgb(214, 208, 208);
+    cursor: pointer;
+}
+
+.yk{
+    display: flex;
+    padding-left: 20px;
+    padding-top: 10px;
+    /* background: yellow; */
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    margin-left: 15px;
+}
+
+.yk p{
+    padding-left: 20px;
+    padding-top: 2px;
+}
+
+.yk:hover{
+    background: rgb(214, 208, 208);
+    cursor: pointer;
+}
+
+.sixth{
+    /* background: blue; */
+    height: 180px;
+    border-bottom: 1px solid rgb(233, 223, 223);
+    width: 220px;
+}
+
+.settings{
+    display: flex;
+    padding-left: 20px;
+    padding-top: 10px;
+    /* background: yellow; */
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    margin-left: 15px;
+}
+
+.settings p{
+    padding-left: 20px;
+    padding-top: 2px;
+}
+
+.settings:hover{
+    background: rgb(214, 208, 208);
+    cursor: pointer;
+}
+
+.report{
+    display: flex;
+    padding-left: 20px;
+    padding-top: 10px;
+    /* background: yellow; */
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    margin-left: 15px;
+}
+
+.report p{
+    padding-left: 20px;
+    padding-top: 2px;
+}
+
+.report:hover{
+    background: rgb(214, 208, 208);
+    cursor: pointer;
+}
+
+.help{
+    display: flex;
+    padding-left: 20px;
+    padding-top: 10px;
+    /* background: yellow; */
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    margin-left: 15px;
+}
+
+.help p{
+    padding-left: 20px;
+    padding-top: 2px;
+}
+
+.help:hover{
+    background: rgb(214, 208, 208);
+    cursor: pointer;
+}
+
+.feedbacks{
+    display: flex;
+    padding-left: 20px;
+    padding-top: 10px;
+    /* background: yellow; */
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    margin-left: 15px;
+}
+
+.feedbacks p{
+    padding-left: 20px;
+    padding-top: 2px;
+}
+
+.feedbacks:hover{
+    background: rgb(214, 208, 208);
+    cursor: pointer;
+}
+
+.seventh{
+    /* background: blue; */
+    height: 240px;
+    border-bottom: 1px solid rgb(233, 223, 223);
+    width: 220px;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+.up{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.up span{
+    padding-right: 10px;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.up a{
+    text-decoration: none;
+    color: black;
+}
+
+.down{
+    margin-bottom: 20px;
+}
+
+.down span{
+    padding-right: 1px;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.down a{
+    text-decoration: none;
+    color: black;
+}
+
+.copyright{
+    color: rgb(70, 70, 70);
+    font-size: 13px;
+}
+
+.topdisplay{
+    /* background: yellow; */
+    width: 84vw;
+    height: 35px;
+    position: fixed;
+    top: 70px;
+    left: 250px;
+    /* overflow-x: scroll; */
+    overflow: auto;
+}
+
+.topdisplay button{
+    height: 35px;
+    color: black;
+    border: inherit;
+    background: rgb(237, 232, 232);
+    font-size: 15px;
+    padding-right: 12px;
+    padding-left: 12px;
+    border-radius: 10px;
+}
+
+.topdisplay button:hover{
+    background: rgb(196, 193, 193);
+    transition: 0.5s;
+}
+
+/* .topdisplay button:focus{
+    background: black;
+} */
+
+main{
+    position: fixed;
+    top: 115px;
+    left: 230px;
+    /* background: red; */
+    height: 100vh;
+    width: 90%;
+    overflow: scroll;
+    display: flex;
+    align-items: center;
+    /* grid-template-columns: auto auto auto; */
+    flex-wrap: wrap;
+}
+
+.maindiv{
+    height: 300px;
+    width: 400px;
+    /* background: green; */
+    margin-top: 20px;
+    margin-left: 20px;
+    /* position: relative; */
+}
+
+.maindiv:hover{
+    cursor: pointer;
+}
+
+main div video{
+    /* position: absolute; */
+    height: 200px; 
+    width: 100%;
+    margin-top: -8px;
+}
+
+.wordingsdiv{
+    display: flex;
+}
+
+.wordingsdiv img{
+    border-radius: 50%;
+    width: 30px; 
+    height: 30px;
+}
+
+.wordingsdiv span{
+    margin-left: 10px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wordingsdiv p{
+    margin-left: 10px;
+    color: grey;
+    margin-top: 5px;
+}
+
+.firstp{
+    padding-top: 5px;
+}
+
+@media (max-width:768px){
+    header{
+        height: 70px;
+        display: flex;
+        position: fixed;
+        top: 0;
+    }
+
+    .hamburger div{
+        height: 1px;
+        width: 20px;
+    }
+
+    .searchbar{
+        display: flex;
+        height: 45px;
+        width: 200px;
+        margin-left: 90px;
+    }
+
+    .search{
+        padding-right: 75px;
+    }
+    
+    .searchicon{
+        background: rgb(237, 232, 232);
+    }
+
+    #video{
+        margin-left: 70px;
+    }
+
+    aside{
+        display: none;
+    }
+
+    .topdisplay{
+        width: 100vw;
+        height: 35px;
+        position: fixed;
+        top: 70px;
+        left: 0px;
+        overflow: scroll;
+        margin-left: 20px;
+    }
+    
+    main{
+        left: 17px;
+        height: 100vh;
+        width: 96%;
+        grid-template-columns: auto auto;
+    }
+}
