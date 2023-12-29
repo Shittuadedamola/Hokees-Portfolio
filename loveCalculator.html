@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hokees Love Calculator</title>
+    <link rel="stylesheet" href="loveCalculator.css">
+</head>
+<body id="bod">
+    <main id="maiin">
+        <header id="hdr">
+            <div id="lo">LOVE</div>
+            <img id="lovesym" src="images/love_symbol-removebg-preview (1).png" alt="">
+            <div id="cal">CALCULATOR</div>
+        </header>
+        
+        <div id="mainDiv">
+            <section id="sect">
+                <input type="text" id="first">
+                <div id="midlove"><img id="sectlove" src="images/white-love-removebg-preview.png" alt=""><div id="with">WITH</div></div>
+                <input type="text" id="second">
+            </section>
+    
+            <div id="resultDiv">
+                <h1 id="resultP"></h1>
+                <span id="story"></span>
+                <button onclick="reset()" id="reset">RESET</button>
+            </div>
+        </div>
+
+        <button onclick="calc()" id="calc">CALCULATE</button>
+    </main>
+
+
+
+    <script>
+        const  calc=()=>{
+            let yyy = Math.random()*100
+            let zzz = Math.round(yyy)
+            document.getElementById("resultP").innerText = zzz + "%"
+
+            if (zzz>=0 && zzz<= 30) {
+                document.getElementById("story").innerText = "Una just dey whine each other"
+            }
+
+            else if (zzz>=31 && zzz<= 50) {
+                document.getElementById("story").innerText = "E no fit work out, no dey waste your time"
+            }
+
+            else if (zzz>=51 && zzz<= 70) {
+                document.getElementById("story").innerText = "Well, E sharp small, but e fit no lead to marriage"
+            }
+
+            else{
+                document.getElementById("story").innerText = "Wow, E do well, even though i no dey happy with una relationship"
+            }
+
+            document.getElementById("reset").style.display = "block"
+
+            if (document.getElementById("first").value == "" && document.getElementById("second").value == "") {
+                document.getElementById("story").innerText = ""
+                document.getElementById("resultP").innerText = ""
+                document.getElementById("reset").style.display = "none"
+            }
+        }
+
+        const reset=()=>{
+            document.getElementById("first").value = ""
+            document.getElementById("second").value = ""
+            document.getElementById("story").innerText = ""
+            document.getElementById("resultP").innerText = ""
+            document.getElementById("reset").style.display = "none"
+        }
+
+    </script>
+</body>
+</html>
