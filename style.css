@@ -89,6 +89,7 @@ body{
 .projects{
     width: 50%;
     height: 250vh;
+    padding-top: 10%;
 }
 
 .tired{
@@ -126,6 +127,11 @@ body{
 }
 
 .skillsix:hover{
+    /* animation: hey 1s ease-in-out; */
+    transform: translateY(-5px);
+}
+
+.skillseven:hover{
     /* animation: hey 1s ease-in-out; */
     transform: translateY(-5px);
 }
@@ -253,6 +259,7 @@ body{
 .contacts{
     width: 50%;
     height: 50vh;
+    padding-top: 10%;
 }
 
 .contact{
